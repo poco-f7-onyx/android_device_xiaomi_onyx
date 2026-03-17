@@ -1,0 +1,7 @@
+# Set Attestation props for each miatoll device
+on property:ro.boot.hwname=onyx
+    setprop ro.product.manufacturer_for_attestation Xiaomi
+    setprop ro.product.brand_for_attestation POCO
+    setprop ro.product.device_for_attestation onyx
+    setprop ro.product.name_for_attestation "POCO F7"
+    setprop ro.product.model_for_attestation "POCO F7"
