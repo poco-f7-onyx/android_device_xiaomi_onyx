@@ -562,3 +562,6 @@ $(call inherit-product, vendor/xiaomi/onyx/onyx-vendor.mk)
 
 # Vendor MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/onyx-miuicamera/device.mk)
+
+# Miui-apps
+$(call inherit-product-if-exists, vendor/xiaomi/onyx-miuiapps/config.mk)
